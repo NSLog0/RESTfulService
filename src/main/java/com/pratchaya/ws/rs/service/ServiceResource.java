@@ -29,7 +29,7 @@ import org.codehaus.jettison.json.*;
  * @author suputsopon
  */
 @Path("json/service")
-public class SeviceResource implements ItemResourceInterface {
+public class ServiceResource implements ItemResourceInterface {
 
     private String image = "";
     //resources/json/service
@@ -72,7 +72,7 @@ public class SeviceResource implements ItemResourceInterface {
 
             Map map = new LinkedHashMap();
             List list = new LinkedList();
-            map.put("width", bt.getWidth()+60);
+            map.put("width", bt.getWidth() + 60);
             map.put("height", bt.getHeight());
             map.put("color_mode", bt.getColorModel().toString());
             map.put("image", "data:image/jpeg;base64," + s);

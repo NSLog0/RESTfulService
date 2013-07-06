@@ -22,7 +22,6 @@ public class ImageCV {
         IplImage firstFramegray = cvCreateImage(cvGetSize(bin), IPL_DEPTH_8U, 1);
         cvCvtColor(bin, firstFramegray, CV_BGR2GRAY);
         cl = firstFramegray.getBufferedImage();
-
         return cl;
     }
 }

@@ -19,4 +19,5 @@ public class RestJsonApplication extends PackagesResourceConfig {
         super("com.pratchaya.ws.rs.service");
 
     }
+    
 }

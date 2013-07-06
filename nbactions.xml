@@ -4,6 +4,7 @@
             <actionName>run</actionName>
             <goals>
                 <goal>package</goal>
+                
             </goals>
             <properties>
                 <netbeans.deploy>true</netbeans.deploy>
@@ -14,6 +15,7 @@
             <actionName>debug</actionName>
             <goals>
                 <goal>package</goal>
+                
             </goals>
             <properties>
                 <netbeans.deploy.debugmode>true</netbeans.deploy.debugmode>
